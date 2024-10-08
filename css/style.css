@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  font-family: "Rubik", sans-serif;
+}
 .site-wrapper{
   width: 1440px;
   height: 1000px;
@@ -17,7 +20,7 @@
   width: 1104px;
   height: 46px;
   margin: 0px 165px 0px 171px;
-  border:1px solid red;
+  /* border:1px solid red; */
 
 }
 .logo{
@@ -37,6 +40,13 @@
   align-items:center;
 }
 .menu-list-item{
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+
+  text-transform: capitalize;
   list-style: none;
 }
 .menu-list-item:nth-of-type(1){
@@ -45,7 +55,94 @@
 .menu-list-item{
   margin-right: 48px;
 }
+.menu-list-item:hover{
+  border-bottom: 1px solid blue;
+}
 
 .menu-link{
+  color: #242A45;
   text-decoration: none;
+}
+.btn{
+  font-size: 13px;
+  line-height: 17px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  border-radius: 5px;
+  width: 111px;
+  height: 40px;
+  background-color: #FA5959;
+  color:#FFFFFF;
+  box-shadow: 0px 8px 8px -4px #495DCF33;
+  border:none;
+  margin: 0;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+.btn:hover{
+  opacity: 0.8;
+}
+.btn:active{
+  opacity: 0.6;
+}
+
+/* MAin section */
+.main-section{
+  width: 100%;
+  margin-top: 108px;
+  border:1px solid blueviolet;
+}
+.main-section-container{
+  display: flex;
+  width:1183px;
+  margin:0px 92px 0px 165px ;
+  height:100vh;
+  border:1px solid yellowgreen;
+}
+.heading-main-section{
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 500;
+  letter-spacing: -0.15px;
+  color:#242A45;
+  margin: 0px;
+  margin-top: 71px;
+  margin-bottom: 24px;
+}
+.text-main-section{
+ font-size: 18px;
+ line-height: 28px;
+ font-weight: 400;
+ color:#242A45;
+ margin-bottom: 32px;
+}
+.right-main-section{
+
+}
+.button-blue{
+  width: 166px;
+  height: 48px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 500;
+  background-color:#5267DF;
+  box-shadow: 0px 8px 8px -4px #495DCF33;
+  color:#FFFFFF;
+  border:none;
+  margin-right: 16px;
+  cursor: pointer;
+}
+.button-white{
+  background-color:#F7F7F7;
+  box-shadow: 0px 8px 8px -4px #495DCF33;
+  color:#242A45;
+  cursor: pointer;
+
+}
+.img-tablet{
+  width: 578px;
+  height: 385px;
+
 }
